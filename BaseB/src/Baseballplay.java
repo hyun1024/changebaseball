@@ -38,8 +38,6 @@ public class Baseballplay {
                     System.out.println(strike + "S " + ball + "B");
                     count--;
                 }
-            } catch (IOException e) {
-                System.out.println("입력 중 오류가 발생했습니다. 다시 입력해주세요.");
             } catch (NoSuchElementException e) {
                 System.out.println("입력 값이 올바르지 않습니다. " + corNum + "자리 숫자를 한 칸씩 띄워서 입력하세요.");
             } catch (NumberFormatException e) {
@@ -47,7 +45,7 @@ public class Baseballplay {
             }
         }
     }
-    public static boolean contains(int[] array, int number) {
+    public boolean contains(int[] array, int number) {
         for (int num : array) {
             if (num == number) {
                 return true;
