@@ -28,7 +28,6 @@ public class Baseballplay {
 
                 if (strike == corNum) {
                     System.out.println("정답입니다! 총 시도 횟수 : " + tr + "번");
-                    count = 0;
                     break;
                 } else if (count == 1) {
                     System.out.println("아쉽게도 기회를 모두 소진하셨습니다.");
