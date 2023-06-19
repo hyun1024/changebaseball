@@ -26,9 +26,6 @@ public class Startset {
                     default:
                         System.out.println("유효하지 않은 난이도입니다. Easy, Normal, Hard 중 하나를 입력해주세요.");
                         return 0;
-                }
-            }
-
-
+        }
     }
 }
