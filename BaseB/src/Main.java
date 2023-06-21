@@ -1,5 +1,6 @@
 import java.io.*;
 public class Main {
+
     public static void main(String[] args) throws IOException {
         Startset ss = new Startset();
         Randomset rs = new Randomset();
@@ -34,5 +35,7 @@ public class Main {
         } catch (IOException e) {
             System.out.println("입력 스트림을 닫는 도중 오류가 발생하였습니다.");
         }
+        Integer.toString()
+                String.valueOf()
     }
 }
